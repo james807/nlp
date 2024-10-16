@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e2e2e; /* Dark background */
+    color: #ddd; /* Light text color */
+    margin: 0;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #444; /* Dark background for cards */
+    border: 1px solid #666; /* Slightly lighter border */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+#data-table {
+    background-color: #ffffff; /* Darker background for data table */
+    color: #fff; /* White text for better visibility */
+    width: 100%;
+    height: auto; /* Allow for auto height */
+    border-radius: 8px; /* Slightly rounded corners */
+    overflow: hidden; /* Hide overflow for smooth edges */
+}
+
+.table {
+    width: 100%; /* Full-width for tables */
+    margin-bottom: 1rem; /* Add margin for spacing */
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Center text vertically */
+    border-bottom: 1px solid #666; /* Add border for table rows */
+    color: #fff; /* Ensure text in table cells is white */
+}
+
+.table th {
+    background-color: #555; /* Darker background for table headers */
+    color: #fff; /* White text for headers */
+    text-align: left; /* Left-align headers */
+}
+
+.table td {
+    background-color: #444; /* Darker background for table cells */
+    color: #fff; /* Light text color for cells */
+}
+
+/* Query Result */
+#query-result {
+    background-color: #3a3a3a; /* Dark background for query result */
+    color: #fff; /* White text for better visibility */
+    height: auto; /* Auto height to fit content */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 10px; /* Add padding for spacing */
+}
+
+/* Dark Mode Toggle */
+#toggle-dark-mode {
+    margin: 20px; /* Add margin for spacing */
+}
+
+/* Input and Button Styles */
+input[type="text"], input[type="file"], button {
+    background-color: #555; /* Dark background for inputs */
+    color: #fff; /* Light text color for inputs */
+    border: 1px solid #666; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for inputs */
+    width: 100%; /* Full width for inputs */
+}
+
+button {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: #fff; /* White text for buttons */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor for buttons */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* General Styles for Dark Mode */
+body.dark-mode .card {
+    background-color: #444; /* Dark background for cards in dark mode */
+    border-color: #666; /* Border color for cards in dark mode */
+}
+
+body.dark-mode .table th, body.dark-mode .table td {
+    border-bottom: 1px solid #666; /* Maintain border color in dark mode */
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #3a3a3a; /* Background of the scrollbar track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Color of the thumb on hover */
+}
